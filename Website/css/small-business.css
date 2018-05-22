@@ -1,0 +1,85 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+/* overwrite margin and padding inherited from cetei.css */  
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.digigw-primary-bg {
+  background-color: #ccaa8f;
+}
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+
+
+
+/* overwrite content inherited from cetei.css */
+tei-choice tei-abbr + tei-expan:before,
+tei-choice tei-expan + tei-abbr:before,
+tei-choice tei-sic + tei-corr:before,
+tei-choice tei-corr + tei-sic:before,
+tei-choice tei-orig + tei-reg:before,
+tei-choice tei-reg + tei-orig:before {
+  content: "";
+}
+tei-choice tei-abbr + tei-expan:after,
+tei-choice tei-expan + tei-abbr:after,
+tei-choice tei-sic + tei-corr:after,
+tei-choice tei-corr + tei-sic:after,
+tei-choice tei-orig + tei-reg:after,
+tei-choice tei-reg + tei-orig:after {
+  content: "";
+}
+
+/*
+tei-ab[type="intitulatio"]:hover:before{
+     content: '[Intitulatio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="narratio"]:hover:before {
+    content: '[Narratio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="dispositio"]:hover:before {
+    content: '[Dispositio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="sanctio"]:hover:before {
+    content: '[Sanctio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="corroboratio"]:hover:before {
+    content: '[Corroboratio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="datierung"]:hover:before {
+    content: '[Datierung:]';
+    font-size:25pt;
+}
+
+tei-ab[type="subscriptio"]:hover:before {
+    content: '[Subscriptio:]';
+    font-size:25pt;
+    font-style:normal;
+}
+*/
